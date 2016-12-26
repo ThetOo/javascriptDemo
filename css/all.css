@@ -1,0 +1,166 @@
+html, body{
+	bottom: 0;
+	padding: 0;
+	height: 100%;
+}
+.container {
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.content {
+	margin-bottom: 125px;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+.button-area {
+	margin-top: 20px;
+}
+.green {
+	color: green;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+ul {
+	line-height: 30px;
+}
+ul li {
+	position: relative;
+	display: inline-block;
+	padding-right: 0;
+}
+/*ul li::after,
+ul li::before {
+	display: block;
+	content: '';
+	position: absolute;
+}
+ul li::after {
+	top: .35em;
+	left: -1.2em;
+	width: 14px;
+	height: 14px;
+	background-color: #3498db;
+	border-radius: 100%;
+}
+ul li::before {
+	z-index: 2;
+	top: .625em;
+	left: -.975em;
+	width: 4px;
+	height: 4px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}*/
+ul li a {
+	text-decoration: underline;
+}
+
+ul li a:hover {
+	text-decoration: none;
+}
+.breadcrumbs{
+	font-size: 12px;
+}
+.breadcrumbs .arrow {
+	margin: 0 10px;
+	padding-left: 5px;
+}
+.breadcrumbs a:hover{
+	text-decoration: none;
+}
+.breadcrumbs .current {
+	color: #000000;
+}
+.clearfix {
+	overflow: hidden;
+}
+footer {
+	position: absolute;
+	margin-top: 30px;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #000000;
+}
+footer p {
+	margin-top: 40px;
+	color: #FFFFFF;
+}
+.code {
+    max-width: 700px;
+    margin: 0 auto;
+    /*border-left: 2px solid #E30808;*/
+    /*border-right: 1px solid #ddd;*/
+    padding: 0 0 1px 0;
+    background: white;
+    z-index: 2;
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: left;
+}
+.center {
+	text-align: center;
+}
+.CodeMirror{
+	height: 100% !important;
+}
+.samplecode {
+	margin: 0 auto;
+}
+.samplecode span {
+	text-align: left;
+	word-wrap: break-word;
+}
+
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 45px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.flL {
+	float: left;
+}
