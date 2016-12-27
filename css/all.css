@@ -13,6 +13,29 @@ html, body{
 	margin-right: 60px;
 	margin-left: 60px;
 }
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+   
+    padding: 1em;
+    overflow: hidden;
+}
 .button-area {
 	margin-top: 20px;
 }
@@ -30,11 +53,7 @@ a:hover {
 ul {
 	line-height: 30px;
 }
-ul li {
-	position: relative;
-	display: inline-block;
-	padding-right: 0;
-}
+
 /*ul li::after,
 ul li::before {
 	display: block;
@@ -163,4 +182,40 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 
 .flL {
 	float: left;
+}
+
+.txtL {
+	text-align: left;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+}
+
+#tabs {
+	margin: 0;
+    padding: 0;
+}
+
+#tabs li {
+	display: inline;
+}
+
+#test1,
+#test2,
+#test3 {
+	border: 1px solid #CCC;
+	padding: 50px;
+}
+
+#test2,
+#test3 {
+	display: none;
+}
+
+.mt60 {
+	margin-top: 60px;
 }
