@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>JS Tutorial</title>
-		<link rel="stylesheet" type="text/css" href="/css/all.css">
-		<script type="text/javascript" src="/js/all.js"></script>
-		<script type="text/javascript" src="/js/tab.js"></script>
+		<link rel="stylesheet" type="text/css" href="/common/css/all.css">
+		<script type="text/javascript" src="/common/js/all.js"></script>
+		<script type="text/javascript" src="/common/js/tab.js"></script>
 		<script type="text/javascript">
 
 			var attab = new ATTabChangeForImage();
@@ -18,8 +18,8 @@
 	<body>
 		<div class="container">
 			
-			<!--#include virtual="/include/nav.html" -->
-			<!--#include virtual="/include/header.html" -->
+			<!--#include virtual="/common/include/nav.html" -->
+			<!--#include virtual="/common/include/header.html" -->
 
 			<article>
 				<div class="content">
@@ -48,9 +48,9 @@
 					<h3 class="txtL mt60">Tab Change with images</h3>
 					<form name="form">
 						<ul id="tabs">
-							<li><a href="#test1"><img src="/img/btn/btn_test01_in.gif" alt="テスト4" width="125" height="32" /></a></li><!--
-							--><li><a href="#test2"><img src="/img/btn/btn_test02_off.gif" alt="テスト5" width="125" height="32" /></a></li><!--
-							--><li><a href="#test3"><img src="/img/btn/btn_test03_off.gif" alt="テスト6" width="125" height="32" /></a></li>
+							<li><a href="#test1"><img src="/common/img/btn/btn_test01_in.gif" alt="テスト4" width="125" height="32" /></a></li><!--
+							--><li><a href="#test2"><img src="/common/img/btn/btn_test02_off.gif" alt="テスト5" width="125" height="32" /></a></li><!--
+							--><li><a href="#test3"><img src="/common/img/btn/btn_test03_off.gif" alt="テスト6" width="125" height="32" /></a></li>
 						</ul>
 						<div id="test1">
 							test4の内容<br />
@@ -74,7 +74,7 @@
 					</form>
 				</div>
 			</article>
-			<!--#include virtual="include/footer.html" -->
+			<!--#include virtual="/common/include/footer.html" -->
 		</div>
 		<script type="text/javascript">
 			function openCity(evt, tabName) {

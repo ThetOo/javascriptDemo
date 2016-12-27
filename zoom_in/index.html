@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JS Tutorial</title>
+		<link rel="stylesheet" type="text/css" href="/common/css/all.css">
+		<script type="text/javascript" src="/orientation/js/libs.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/common/js/jquery.inview.js"></script>
+
+	</head>
+	<body>
+		<div class="container">	
+			<!--#include virtual="/common/include/nav.html" -->
+			<!--#include virtual="/common/include/header.html" -->
+			<article>
+				<div class="content">
+					<h2 class="txtL">縮小・拡大表示</h2>
+					<ul class="list">
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+					</ul>
+					<ul class="list">
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+					</ul>
+					<ul class="list">
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+					</ul>
+					<ul class="list">
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+						<li class="list-mv01"><img src="/common/img/img01.jpg" alt="Sample" title="Sample"></li>
+					</ul>
+				</div>
+			</article>
+			<!--#include virtual="/common/include/footer.html" -->
+		</div>
+		<script type="text/javascript">
+			// JS
+			$(function() {
+				$('.list-mv01').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+					if(isInView){
+						$(this).stop().addClass('mv01');
+					}
+					else{
+						$(this).stop().removeClass('mv01');
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

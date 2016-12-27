@@ -52,7 +52,10 @@ a:hover {
 }
 ul {
 	line-height: 30px;
+	list-style-type: none;
 }
+
+
 
 /*ul li::after,
 ul li::before {
@@ -218,6 +221,26 @@ img {
 
 .mt60 {
 	margin-top: 60px;
+}
+
+.list{
+	margin: 50px 50px 50px 50px;
+	list-style-type: none;
+	overflow: hidden;
+}
+.list li{
+	margin: 50px 20px 50px 20px;
+	float: left;
+	transition: .8s;
+}
+
+.list-mv01{
+	transform: scale(0, 0);
+	-webkit-transform: scale(0, 0);
+}
+.mv01{
+	transform: scale(1, 1);
+	-webkit-transform: scale(1, 1);
 }
 
 @media only screen and (max-width:  768px) {
