@@ -19,6 +19,7 @@ nav {
     max-width: 160px;
     margin: 0;
     padding: 1em;
+    margin-bottom: 100px;
 }
 
 nav ul {
@@ -242,6 +243,21 @@ img {
 	transform: scale(1, 1);
 	-webkit-transform: scale(1, 1);
 }
+.list-mv02{
+	opacity: 0;
+}
+.mv02{
+	opacity: 1.0;
+}
+.list-mv03 {
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+}
+.mv03 {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+
 
 @media only screen and (max-width:  768px) {
 	nav {
