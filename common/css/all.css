@@ -257,7 +257,14 @@ img {
 	transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
 }
-
+.list-mv04{
+	transform:rotateY(0deg);
+	-webkit-transform:rotateY(0deg);
+}
+.mv04{
+	transform:rotateY(360deg);
+	-webkit-transform:rotateY(360deg);
+}
 
 @media only screen and (max-width:  768px) {
 	nav {
