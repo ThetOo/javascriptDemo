@@ -5,8 +5,7 @@
   $(window).on( "orientationchange resize", function() {
     if(Math.abs(window.orientation) === 90 ) {
       $(".iframeWrap").css("display","block");
-      alert("Thank a lot Mr Carlos. (>_<)");
-    
+          autoplay;
       // スクロールを無効にする
       $(window).on('touchmove.noScroll', function(e) {
           e.preventDefault();
